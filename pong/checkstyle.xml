@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+"-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+"http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<module name="Checker">
+  <module name="TreeWalker">
+    <!-- class name must match filename -->
+    <module name="OuterTypeFilename"/>
+    <!-- one class per file -->
+    <module name="OneTopLevelClass"/>
+    <!-- must use braces even when optional -->
+    <module name="NeedBraces"/>
+    <!-- correct indentation -->
+    <module name="Indentation"/>
+    <!-- whitespace -->
+    <module name="OneStatementPerLine"/>
+    <module name="WhitespaceAround"/>
+    <module name="MethodParamPad"/>
+    <module name="ParenPad"/>
+    <module name="NoWhitespaceBefore"/>
+    <!-- naming -->
+    <module name="TypeName"/>
+    <module name="MethodName"/>
+    <module name="MemberName"/>
+    <module name="ParameterName"/>
+    <module name="LocalVariableName"/>
+    <module name="AbbreviationAsWordInName"/>
+  </module>
+</module>
